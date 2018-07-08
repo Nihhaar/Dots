@@ -1,0 +1,79 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: dotfiles
+  keepdot: false
+  longkey: false
+dotfiles:
+  d_fonts:
+    dst: ~/.local/share/fonts
+    src: local/share/fonts
+  d_gtk-3.0:
+    dst: ~/.config/gtk-3.0
+    src: config/gtk-3.0
+  d_i3:
+    dst: ~/.config/i3
+    src: config/i3
+  d_mpd:
+    dst: ~/.config/mpd
+    src: config/mpd
+  d_ncmpcpp:
+    dst: ~/.config/ncmpcpp
+    src: config/ncmpcpp
+  d_openbox:
+    dst: ~/.config/openbox
+    src: config/openbox
+  d_polybar:
+    dst: ~/.config/polybar
+    src: config/polybar
+  d_rofi:
+    dst: ~/.config/rofi
+    src: config/rofi
+  d_themes:
+    dst: ~/.themes
+    src: themes
+  f_compton.conf:
+    dst: ~/.config/compton.conf
+    src: config/compton.conf
+  f_gitconfig:
+    dst: ~/.gitconfig
+    src: gitconfig
+  f_gtkrc-2.0:
+    dst: ~/.gtkrc-2.0
+    src: gtkrc-2.0
+  f_vimrc:
+    dst: ~/.vimrc
+    src: vimrc
+  f_xbindkeysrc:
+    dst: ~/.xbindkeysrc
+    src: xbindkeysrc
+  f_xresources:
+    dst: ~/.Xresources
+    src: Xresources
+  f_zimrc:
+    dst: ~/.zimrc
+    src: zimrc
+  f_zshrc:
+    dst: ~/.zshrc
+    src: zshrc
+profiles:
+  BigBoss:
+    dotfiles:
+    - f_xresources
+    - f_xbindkeysrc
+    - d_i3
+    - d_mpd
+    - d_ncmpcpp
+    - d_openbox
+    - d_polybar
+    - d_rofi
+    - f_compton.conf
+    - d_themes
+    - d_fonts
+    - d_gtk-3.0
+    - f_gtkrc-2.0
+    - f_gitconfig
+    - f_vimrc
+    - f_zimrc
+    - f_zshrc

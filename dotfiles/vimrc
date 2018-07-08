@@ -1,0 +1,64 @@
+call plug#begin('~/.vim/plugged')
+
+" -- vim airline
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
+
+" -- snippets
+Plug 'ervandew/supertab'
+Plug 'sirver/ultisnips'
+Plug 'honza/vim-snippets'
+
+" -- code completion
+Plug 'Valloric/YouCompleteMe'
+Plug 'artur-shaik/vim-javacomplete2'
+
+" -- complete brackets, parentheses, ...
+Plug 'jiangmiao/auto-pairs'
+
+" -- nerdtree
+Plug 'scrooloose/nerdtree'
+
+" -- dev icons
+Plug 'ryanoasis/vim-devicons'
+
+" Initialize plugin system
+call plug#end()
+
+" ************* editor configuration *************
+filetype plugin on
+filetype indent on
+syntax on
+set tabstop=4
+set shiftwidth=4
+set nohlsearch
+set autoread
+set t_Co=256
+set scrolloff=8
+set encoding=UTF-8
+set lazyredraw
+set showmatch
+let python_highlight_all = 1
+
+" ************* eye-candy configuration *************
+" show line numbers
+set nu
+
+" ************* Keymaps *************
+
+
+" ************* JavaComplete configuration *************
+autocmd FileType java setlocal omnifunc=javacomplete#Complete
+
+
+" ************* YouCompleteMe configuration *************
+let g:ycm_add_preview_to_completeopt = 1
+let g:ycm_show_diagnostics_ui = 0
+let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_confirm_extra_conf = 0
+
+" ************* UltiSnippets ***************
+" UltiSnips triggering
+let g:UltiSnipsExpandTrigger = '<C-j>'
+let g:UltiSnipsJumpForwardTrigger = '<C-j>'
+let g:UltiSnipsJumpBackwardTrigger = '<C-k>'

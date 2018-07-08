@@ -1,0 +1,17 @@
+! Enabled modi
+rofi.modi: run,drun
+
+! Window opacity
+rofi.opacity:				100
+
+! Window width
+rofi.width:				50
+
+! Number of lines
+rofi.lines:				15
+
+! Number of columns
+rofi.columns:				1
+
+! Font to use
+rofi.font:				Arial 14

@@ -1,0 +1,59 @@
+#################
+# CORE SETTINGS #
+#################
+
+#
+# Zim settings
+#
+
+# Select what modules you would like enabled.
+# The second line of modules may depend on options set by modules in the first
+# line. These dependencies are noted on the respective module's README.md.
+zmodules=(prompt directory git-info history input utility custom \
+          syntax-highlighting history-substring-search completion)
+
+
+###################
+# MODULE SETTINGS #
+###################
+
+# Prompt
+zprompt_theme='pure'
+
+#
+# Utility
+#
+
+# Uncomment to enable spelling correction prompt for commands. See:
+# http://zsh.sourceforge.net/Doc/Release/Options.html#Input_002fOutput
+#setopt CORRECT
+
+# Set custom spelling correction prompt
+#SPROMPT='zsh: correct %F{red}%R%f to %F{green}%r%f [nyae]? '
+
+# Input
+# Set to vi or emacs
+zinput_mode='vi'
+
+# Uncomment to enable double-dot expansion. This appends '../' to your input for
+# each '.' you type after an initial '..'
+#zdouble_dot_expand='true'
+
+#
+# Syntax-Highlighting
+#
+
+# This determines what highlighters will be used with the syntax-highlighting module.
+# Documentation of the highlighters can be found here:
+#   https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/docs/highlighters.md
+# For (u)rxvt, termite and gnome-terminal users,
+# removing the 'cursor' highlighter will fix the disappearing cursor problem
+zhighlighters=(main brackets)
+
+
+#
+# SSH
+#
+
+# Load these ssh identities with the ssh module
+#zssh_ids=(id_rsa)
