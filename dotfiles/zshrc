@@ -16,6 +16,10 @@ alias lc=colorls
 alias grep='grep --color=auto'
 alias pmount='mount -o gid=users,fmask=113,dmask=002'
 alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
+
+# Helper aliases
+alias heredoc='echo -e "cat << EOF > /tmp/file\nThese contents will be written to the file.\nEOF"'
 
 # Cursor speed
 # xset r rate 200 20
