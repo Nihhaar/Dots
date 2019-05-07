@@ -19,5 +19,8 @@ xgamma -gamma 1
 # Bind common keys
 xbindkeys
 
+# Plank
+plank &
+
 # Start the bar
-(sleep 1s && polybar WMBar) &
+(sleep 1s && polybar openbox) &

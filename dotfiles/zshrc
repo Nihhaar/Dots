@@ -8,8 +8,9 @@ export ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
 # Start zim
 [[ -s ${ZIM_HOME}/init.zsh ]] && source ${ZIM_HOME}/init.zsh
 
-# Path
+# Exports
 export PATH=~/.local/bin:$PATH
+export VISUAL=vim
 
 # Custom aliases
 alias lc=colorls
@@ -23,3 +24,6 @@ alias heredoc='echo -e "cat << EOF > /tmp/file\nThese contents will be written t
 
 # Cursor speed
 # xset r rate 200 20
+
+# Conda
+[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh

@@ -24,8 +24,8 @@ window.client.padding.width: 0
 window.client.padding.height: 0
 window.handle.width: 2
 
-padding.width: 11
-padding.height: 9
+padding.width: 9
+padding.height: 7
 
 
 ### TITLEBAR

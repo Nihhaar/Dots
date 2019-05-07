@@ -58,7 +58,7 @@ dotfiles:
     dst: ~/.zshrc
     src: zshrc
 profiles:
-  BigBoss:
+  LoneRanger:
     dotfiles:
     - f_xresources
     - f_xbindkeysrc

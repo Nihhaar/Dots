@@ -70,7 +70,7 @@
    XF86AudioNext
 
 # Launch Terminal
-"urxvt"
+"alacritty"
     m:0xc + c:28
     Control + Alt + t
 
@@ -78,6 +78,10 @@
 "rofi -show drun"
     m:0x4 + c:36
     Control + Return
+
+"scrot -s -z -e 'mv $f ~/Pictures/'"
+    m:0x0 + c:107
+    Print + Release
 
 ##################################
 # End of xbindkeys configuration #

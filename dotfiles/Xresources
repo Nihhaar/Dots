@@ -68,8 +68,8 @@ URxvt.cursorBlink:	    true
 URxvt.cursorUnderline: 	    false
 
 ! Transparency
-!URxvt.depth: 32
-URxvt*transparent: false
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0000/8888
 
 ! History
 URxvt*saveLines: 10000
