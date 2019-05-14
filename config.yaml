@@ -3,8 +3,13 @@ config:
   banner: true
   create: true
   dotpath: dotfiles
+  ignoreempty: false
   keepdot: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
   longkey: false
+  showdiff: false
+  workdir: ~/.config/dotdrop
 dotfiles:
   d_fonts:
     dst: ~/.local/share/fonts
@@ -33,6 +38,9 @@ dotfiles:
   d_themes:
     dst: ~/.themes
     src: themes
+  f_alacritty.yml:
+    dst: ~/.config/alacritty/alacritty.yml
+    src: config/alacritty/alacritty.yml
   f_compton.conf:
     dst: ~/.config/compton.conf
     src: config/compton.conf
@@ -77,3 +85,4 @@ profiles:
     - f_vimrc
     - f_zimrc
     - f_zshrc
+    - f_alacritty.yml
