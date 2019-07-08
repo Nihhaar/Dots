@@ -85,6 +85,4 @@ profiles:
     - f_vimrc
     - f_zimrc
     - f_zshrc
-  debian:
-    dotfiles:
     - f_alacritty.yml
