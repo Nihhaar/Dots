@@ -56,6 +56,12 @@ dotfiles:
   f_xbindkeysrc:
     dst: ~/.xbindkeysrc
     src: xbindkeysrc
+  f_xfce-script.desktop:
+    dst: ~/.config/autostart/xfce-script.desktop
+    src: config/autostart/xfce-script.desktop
+  f_xfwm.sh:
+    dst: ~/.config/xfwm.sh
+    src: config/xfwm.sh
   f_xresources:
     dst: ~/.Xresources
     src: Xresources
@@ -86,3 +92,5 @@ profiles:
     - f_zimrc
     - f_zshrc
     - f_alacritty.yml
+    - f_xfwm.sh
+    - f_xfce-script.desktop

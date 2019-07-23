@@ -1,0 +1,33 @@
+Jul 19 00:31 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 19 00:31 : exception: Failed to decode /home/nihhaar/Music/Telugu/Khaidi No 150/Ratthaalu.mp3
+Jul 19 00:31 : exception: nested: Failed to open '/home/nihhaar/Music/Telugu/Khaidi No 150/Ratthaalu.mp3': No such file or directory
+Jul 19 00:31 : player: played "Telugu/Khaidi No 150/Ratthaalu.mp3"
+Jul 19 00:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 19 00:33 : client: [0] opened from 127.0.0.1:34516
+Jul 19 00:33 : client: [0] closed
+Jul 19 00:33 : client: [1] opened from 127.0.0.1:34522
+Jul 19 00:34 : client: [1] closed
+Jul 19 00:40 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 19 00:40 : client: [0] opened from 127.0.0.1:55960
+Jul 19 01:16 : client: [0] closed
+Jul 19 01:16 : client: [1] opened from 127.0.0.1:57544
+Jul 19 01:16 : client: [1] closed
+Jul 19 01:18 : client: [2] opened from 127.0.0.1:57568
+Jul 19 01:19 : client: [2] closed
+Jul 19 01:21 : client: [3] opened from 127.0.0.1:57580
+Jul 19 01:22 : client: [3] closed
+Jul 19 01:23 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 19 01:23 : client: [0] opened from 127.0.0.1:53796
+Jul 19 01:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 19 01:56 : client: [0] opened from 127.0.0.1:38202
+Jul 19 01:57 : client: [0] closed
+Jul 19 01:57 : client: [1] opened from 127.0.0.1:38212
+Jul 19 01:57 : client: [1] closed
+Jul 19 02:01 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 19 02:01 : client: [0] opened from 127.0.0.1:41780
+Jul 19 22:50 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 19 22:50 : client: [0] opened from 127.0.0.1:53814
+Jul 19 22:52 : client: [0] closed
+Jul 19 22:52 : client: [1] opened from 127.0.0.1:53860
+Jul 23 23:09 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jul 23 23:09 : client: [0] opened from 127.0.0.1:45674

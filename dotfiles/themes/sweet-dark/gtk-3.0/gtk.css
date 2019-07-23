@@ -4017,15 +4017,13 @@ treeview ~ scrollbar.vertical {
       .sidebar row:selected label {
         color: #fefefe; }
   .sidebar.source-list {
-    background: #181b28;
+    background: #161925;
     padding: 4px 0px; }
     .sidebar.source-list.view, iconview.sidebar.source-list {
       transition: all .12s ease-in; }
       .sidebar.source-list.view:selected, iconview.sidebar.source-list:selected {
-        padding-left: 4px;
-        background: rgba(238, 238, 238, 0.5);
-        color: #ACACAC;
-        border-left: 4px solid #c50ed2; }
+        background-color: #c50ed2;
+        color: #fefefe; }
         .sidebar.source-list.view:selected:active, iconview.sidebar.source-list:selected:active {
           box-shadow: inset 0 2px 3px -1px rgba(0, 0, 0, 0.5); }
         .sidebar.source-list.view:selected.has-open-popup, iconview.sidebar.source-list:selected.has-open-popup, .sidebar.source-list.view:selected:hover, iconview.sidebar.source-list:selected:hover {
@@ -4033,7 +4031,7 @@ treeview ~ scrollbar.vertical {
         .sidebar.source-list.view:selected:backdrop, iconview.sidebar.source-list:selected:backdrop {
           background-color: rgba(197, 14, 210, 0.6); }
       .sidebar.source-list.view:hover, iconview.sidebar.source-list:hover, .sidebar.source-list.view iconview.source-list:hover, iconview.sidebar.source-list iconview.source-list:hover {
-        background-color: rgba(22, 25, 37, 0.4); }
+        background-color: rgba(0, 0, 0, 0.13); }
   paned .sidebar.left, paned .sidebar.right, paned .sidebar.left:dir(rtl), paned .sidebar:dir(rtl), paned .sidebar:dir(ltr), paned .sidebar {
     border-style: none;
     border-color: rgba(12, 14, 21, 0.8); }
@@ -5495,6 +5493,60 @@ calendar.raven-calendar {
 window.background.budgie-settings-window.csd > box.horizontal > stack > scrolledwindow buttonbox.inline-toolbar {
   border-style: none none solid; }
 
+.workspace-switcher .workspace-layout {
+  border: 0 solid rgba(3, 3, 5, 0.95); }
+  .top .workspace-switcher .workspace-layout:dir(ltr),
+  .bottom .workspace-switcher .workspace-layout:dir(ltr) {
+    border-left-width: 1px; }
+  .top .workspace-switcher .workspace-layout:dir(rtl),
+  .bottom .workspace-switcher .workspace-layout:dir(rtl) {
+    border-right-width: 1px; }
+  .left .workspace-switcher .workspace-layout,
+  .right .workspace-switcher .workspace-layout {
+    border-top-width: 1px; }
+
+.workspace-switcher .workspace-item,
+.workspace-switcher .workspace-add-button {
+  border: 0 solid rgba(22, 25, 37, 0.95); }
+  .top .workspace-switcher .workspace-item:dir(ltr),
+  .bottom .workspace-switcher .workspace-item:dir(ltr), .top
+  .workspace-switcher .workspace-add-button:dir(ltr),
+  .bottom
+  .workspace-switcher .workspace-add-button:dir(ltr) {
+    border-right-width: 1px; }
+  .top .workspace-switcher .workspace-item:dir(rtl),
+  .bottom .workspace-switcher .workspace-item:dir(rtl), .top
+  .workspace-switcher .workspace-add-button:dir(rtl),
+  .bottom
+  .workspace-switcher .workspace-add-button:dir(rtl) {
+    border-left-width: 1px; }
+  .left .workspace-switcher .workspace-item,
+  .right .workspace-switcher .workspace-item, .left
+  .workspace-switcher .workspace-add-button,
+  .right
+  .workspace-switcher .workspace-add-button {
+    border-bottom-width: 1px; }
+
+.workspace-switcher .workspace-item.current-workspace {
+  background-color: rgba(12, 14, 21, 0.95); }
+
+.workspace-switcher .workspace-add-button {
+  border: none;
+  background: transparent;
+  box-shadow: none; }
+  .workspace-switcher .workspace-add-button:hover {
+    box-shadow: none; }
+  .workspace-switcher .workspace-add-button:active {
+    background-image: none; }
+  .workspace-switcher .workspace-add-button:active image {
+    margin: 1px 0 -1px; }
+
+.budgie-panel .workspace-switcher .workspace-icon-button {
+  min-height: 24px;
+  min-width: 24px;
+  padding: 0;
+  border-radius: 2px; }
+
 /************
  * Nautilus *
  ************/
@@ -5609,7 +5661,7 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   background-color: #161925; }
 
 .xfce4-panel.panel {
-  background-color: rgba(24, 27, 40, 0.7);
+  background-color: #181b28;
   text-shadow: none;
   -gtk-icon-shadow: none; }
 
@@ -5633,11 +5685,11 @@ window.background.budgie-settings-window.csd > box.horizontal > stack > scrolled
   background-color: rgba(24, 27, 40, 0); }
   .xfce4-panel.panel button.flat:hover {
     border: none;
-    background-color: rgba(43, 49, 72, 0.7); }
+    background-color: #2b3148; }
   .xfce4-panel.panel button.flat:active, .xfce4-panel.panel button.flat:checked {
     color: #fefefe;
-    border: none;
-    background-color: #c50ed2; }
+    border-bottom: 2px solid #c50ed2;
+    background-color: #343c58; }
     .xfce4-panel.panel button.flat:active label, .xfce4-panel.panel button.flat:active image, .xfce4-panel.panel button.flat:checked label, .xfce4-panel.panel button.flat:checked image {
       color: inherit; }
 
@@ -5831,6 +5883,19 @@ LibraryWindow .the-button-in-the-combobox {
   border-radius: 50%;
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05), inset 0 1px 0 0 rgba(255, 255, 255, 0.45), inset 0 -1px 0 0 rgba(255, 255, 255, 0.15), 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.23); }
 
+/**level bars**/
+.sidebar .source-list.view.level-bar, .sidebar iconview.source-list.level-bar, .sidebar .source-list.view.level-bar:selected, .sidebar iconview.source-list.level-bar:selected, .sidebar .source-list.view.level-bar:selected:focus, .sidebar iconview.source-list.level-bar:selected:focus {
+  background-color: #333955;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 2px; }
+
+.sidebar .source-list.view.level-bar.fill-block, .sidebar iconview.source-list.level-bar.fill-block {
+  border: none; }
+
+.sidebar .source-list.view.fill-block, .sidebar iconview.source-list.fill-block, .sidebar .source-list.view.fill-block:hover, .sidebar iconview.source-list.fill-block:hover, .sidebar .source-list.view.fill-block:selected, .sidebar iconview.source-list.fill-block:selected, .sidebar .source-list.view.fill-block:selected:focus, .sidebar iconview.source-list.fill-block:selected:focus {
+  background: linear-gradient(to right, #00f17d, #00f7d2); }
+
 /********
 * Unity *
 *********/
@@ -6006,10 +6071,10 @@ ConversationListView {
  * LightDm *
  ***********/
 #panel_window {
-  background-color: rgba(24, 27, 40, 0.7);
+  background-color: #181b28;
   color: white;
   font-weight: bold;
-  box-shadow: inset 0 -1px rgba(11, 12, 18, 0.7); }
+  box-shadow: inset 0 -1px #0b0c12; }
   #panel_window .menubar,
   #panel_window .menubar > .menuitem menubar,
   #panel_window menubar > menuitem {

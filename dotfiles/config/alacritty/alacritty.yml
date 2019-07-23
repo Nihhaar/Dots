@@ -10,9 +10,10 @@ window:
     dynamic_padding: true
     decorations: full
 
+background_opacity: 0.8
+
 scrolling:
     history: 2000
-
 
 tabspaces: 4
 
@@ -34,7 +35,7 @@ font:
         style: "Medium Italic"
 
     # Point size of the font
-    size: 15.0
+    size: 10.0
 
 # Colors (Dracula)
 colors:

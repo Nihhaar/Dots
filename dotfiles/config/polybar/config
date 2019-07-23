@@ -122,7 +122,7 @@ icon-0 = home;%{T5}%{T-}
 icon-1 = browser;
 icon-2 = code;
 icon-3 = thunar;
-icon-default = %{T5}%{T-}
+icon-default = 
 
 format = <label-state>
 format-background = ${colors.background}

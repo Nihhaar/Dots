@@ -1,5 +1,9 @@
-gtk-theme-name="deepin-dark"
-gtk-icon-theme-name="Sea"
+# DO NOT EDIT! This file will be overwritten by LXAppearance.
+# Any customization should be done in ~/.gtkrc-2.0.mine instead.
+
+include "/home/nihhaar/.gtkrc-2.0.mine"
+gtk-theme-name="sweet-dark"
+gtk-icon-theme-name="sweet-purple"
 gtk-font-name="San Francisco Text Medium 11"
 gtk-cursor-theme-name="Adwaita"
 gtk-cursor-theme-size=0
@@ -13,4 +17,3 @@ gtk-xft-antialias=1
 gtk-xft-hinting=1
 gtk-xft-hintstyle="hintslight"
 gtk-xft-rgba="rgb"
-gtk-enable-tooltips = 0
