@@ -38,6 +38,9 @@ dotfiles:
   d_themes:
     dst: ~/.themes
     src: themes
+  d_ursine:
+    dst: ~/.config/Typora/themes/ursine
+    src: config/Typora/themes/ursine
   f_alacritty.yml:
     dst: ~/.config/alacritty/alacritty.yml
     src: config/alacritty/alacritty.yml
@@ -50,6 +53,15 @@ dotfiles:
   f_gtkrc-2.0:
     dst: ~/.gtkrc-2.0
     src: gtkrc-2.0
+  f_settings.json:
+    dst: ~/.config/Code - OSS/User/settings.json
+    src: config/Code - OSS/User/settings.json
+  f_ursine-polar.css:
+    dst: ~/.config/Typora/themes/ursine-polar.css
+    src: config/Typora/themes/ursine-polar.css
+  f_ursine-umbra.css:
+    dst: ~/.config/Typora/themes/ursine-umbra.css
+    src: config/Typora/themes/ursine-umbra.css
   f_vimrc:
     dst: ~/.vimrc
     src: vimrc
@@ -94,3 +106,7 @@ profiles:
     - f_alacritty.yml
     - f_xfwm.sh
     - f_xfce-script.desktop
+    - d_ursine
+    - f_ursine-polar.css
+    - f_ursine-umbra.css
+    - f_settings.json

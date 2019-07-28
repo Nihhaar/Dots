@@ -1,0 +1,25 @@
+{
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "'Operator Mono Lig Book', 'Dank Mono', 'FantasqueSansMono Nerd Font Mono'",
+    "terminal.integrated.fontFamily": "'Operator Mono Lig Book', 'Dank Mono'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 19,
+    "bracketPairColorizer.forceIterationColorCycle": true,
+
+    "editor.renderWhitespace": "all",
+    "editor.snippetSuggestions": "top",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.glyphMargin": true,
+    "workbench.editor.enablePreview": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "/usr/bin/python",
+    "window.zoomLevel": 1,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+}
