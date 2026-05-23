@@ -84,6 +84,13 @@ dotfiles:
     dst: ~/.zshrc
     src: zshrc
 profiles:
+  ArchLinuxWSL:
+    dotfiles:
+    - d_fonts
+    - f_gitconfig
+    - f_vimrc
+    - f_zimrc
+    - f_zshrc
   LoneRanger:
     dotfiles:
     - f_xresources
